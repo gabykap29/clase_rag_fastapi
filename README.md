@@ -114,4 +114,4 @@ vector_store/            # Base de datos Chroma persistida (se crea sola)
 - Solo soporta **PDF**.
 - Subir el mismo PDF dos veces duplica los chunks en la colección.
 - No hay endpoint para listar/borrar colecciones o documentos.
-- Los endpoints son síncronos(Lo ideal seria usar siempre async-await, que con fastAPI lo podemos usar de forma nativa ) y el `SemanticChunker` es lento en PDFs grandes (llama al modelo de embeddings por cada oración, pero suele ser mas efectivo que otros documentos).
+- Los endpoints son síncronos(Lo ideal seria usar siempre async-await, que con fastAPI lo podemos usar de forma nativa ) y el `SemanticChunker` es lento en PDFs grandes (llama al modelo de embeddings por cada oración, pero suele ser mas efectivo que otras estrategias de splitters).
