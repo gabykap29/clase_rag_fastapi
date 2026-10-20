@@ -22,7 +22,7 @@ Todo corre en local: no necesita API keys.
 - [Ollama](https://ollama.com) corriendo en local (`http://localhost:11434`)
 - Modelos en Ollama:
   - Embeddings: `nomic-embed-text`
-  - LLM: `qwen3.5-4b-Q4_K_M` (nombre configurado en `infrastructure/llm.py`)
+  - LLM: `qwen3.5-4b-Q4_K_M` (nombre configurado en `infrastructure/llm.py`) o cualquier otro modelo que tengan disponible.
 
 ```bash
 ollama pull nomic-embed-text
