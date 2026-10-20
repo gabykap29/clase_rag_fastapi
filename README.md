@@ -37,7 +37,7 @@ ollama list   # verificá que el LLM exista con ese nombre exacto
 uv venv env
 source env/bin/activate        # en fish: source env/bin/activate.fish 
 uv pip install -r requirements.txt
-
+```
 ## Ejecutar
 
 Desde la raíz del proyecto (importante: las rutas `documents/` y `vector_store/` son relativas):
